@@ -1,0 +1,4 @@
+php artisan make:migration add_columns_to_users_table
+
+instead of always migrate and say to others they need to update their table, 
+just create new migration file to alter table

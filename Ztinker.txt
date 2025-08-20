@@ -1,0 +1,13 @@
+php artisan tinker
+
+user::get() // get all users
+user::find(1) // get user with id 1
+user::findOrFail(1) // get user with id 1 or throw exception
+user::findBy(['name' => 'John Doe']) // get user with name John Doe
+user::first() // get first user
+
+
+# update first user
+$user = user::first();
+$user->name = 'John Doe';
+$user->save();

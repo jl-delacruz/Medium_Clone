@@ -1,0 +1,4 @@
+php artisan storage:link
+
+#create storage in public
+#when uploading file, store there
